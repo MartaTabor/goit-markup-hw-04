@@ -1,0 +1,349 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--slate-color);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+:root {
+  --navy-blue-color: #2e2f42;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --slate-color: #434455;
+  --white-color: #ffffff;
+  --cloud-color: #f4f4fd;
+  --cornflower-color: #e7e9fc;
+  --second-heading-size: 36px;
+  --second-heading-weight: 700;
+  --third-heading-size: 20px;
+  --third-heading-weight: 500;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.page-header {
+  border-bottom: 1px solid var(--cornflower-color, #e7e9fc);
+}
+
+.header-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: var(--iris-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.footer-logo {
+  color: var(--cloud-color);
+}
+
+.part-logo {
+  color: var(--navy-blue-color);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.page-navigation {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  display: flex;
+  gap: 40px;
+}
+
+.page-link {
+  color: var(--navy-blue-color);
+  display: inline-block;
+  padding: 24px 0;
+}
+
+.page-link:hover,
+.page-link:focus {
+  color: var(--ocean-color);
+}
+
+.address-list {
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+}
+
+.address-link {
+  color: var(--slate-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  display: inline-block;
+  padding: 24px 0;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean-color);
+}
+
+.footer-section {
+  background-color: var(--navy-blue-color);
+  padding: 100px 0;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-note {
+  color: var(--cloud-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  max-width: 264px;
+}
+
+.order-section {
+  background-color: var(--navy-blue-color);
+  padding: 188px 0;
+}
+
+.main-header {
+  color: var(--white-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.order-button {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--iris-color);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  margin: 0 auto;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--ocean-color);
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.services-item {
+  display: block;
+  gap: 8px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.small-header {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+  font-size: var(--third-heading-size);
+  font-weight: var(--third-heading-weight);
+  margin-bottom: 8px;
+}
+
+.services-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+
+.section-header {
+  color: var(--navy-blue-color);
+  font-size: var(--second-heading-size);
+  font-weight: var(--second-heading-weight);
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.third-section {
+  padding-top: 0;
+}
+
+.third-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.third-section-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.team-section {
+  background-color: var(--cloud-color);
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.team-tile {
+  background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-description {
+  padding: 32px 0;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: center;
+}
+
+.portfolio-main-section {
+  padding: 96px 0 120px 0;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--cloud-color);
+  border: 1px solid var(--cornflower-color);
+  color: var(--iris-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 12px 24px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--ocean-color);
+  border: 1px solid transparent;
+  color: var(--white-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.portfolio-description {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower-color);
+  border-top: none;
+}
+
+.portfolio-header {
+  color: var(--navy-blue-color);
+  font-weight: var(--third-heading-weight);
+  font-size: var(--third-heading-size);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.portfolio-paragraph {
+  color: var(--slate-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
