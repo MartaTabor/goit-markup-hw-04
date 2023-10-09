@@ -221,6 +221,11 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.services-icon-box {
+  background-color: var(--cloud-color);
+  border-radius: 4px;
+}
+
 .small-header {
   line-height: 1.2;
   letter-spacing: 0.02em;
