@@ -319,6 +319,17 @@ button {
   cursor: pointer;
 }
 
+.clients-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+}
+
+.client-icon {
+  border: 1px solid var(--light-slate-color);
+  border-radius: 4px;
+}
+
 .portfolio-main-section {
   padding: 96px 0 120px 0;
 }
