@@ -35,6 +35,7 @@ button {
   --cornflower-color: #e7e9fc;
   --grey-color: #2e2f42b2;
   --light-slate-color: #8e8f99;
+  --green-color: #31d0aa;
   --second-heading-size: 36px;
   --second-heading-weight: 700;
   --third-heading-size: 20px;
@@ -150,6 +151,12 @@ button {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 120px;
+}
+
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -160,6 +167,30 @@ button {
   line-height: 1.5;
   letter-spacing: 0.32px;
   max-width: 264px;
+}
+
+.social-media-heading {
+  color: var(--white-color);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-top: 0;
+}
+
+.footer-social-media {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-socialmedia-icon {
+  background-color: var(--iris-color);
+  border-radius: 20px;
+}
+
+.footer-socialmedia-icon:hover,
+.footer-socialmedia-icon:focus {
+  background-color: var(--green-color);
+  cursor: pointer;
 }
 
 .order-section {
