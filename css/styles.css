@@ -359,6 +359,13 @@ button {
 .client-icon {
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
+  fill: var(--light-slate-color);
+}
+
+.client-icon:hover,
+.client-icon:focus {
+  border: 1px solid var(--ocean-color);
+  fill: var(--ocean-color);
 }
 
 .portfolio-main-section {
