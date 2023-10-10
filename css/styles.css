@@ -286,11 +286,12 @@ button {
 
 .team-description {
   padding: 32px 0;
+  margin: 0 16px;
+  gap: 8px;
 }
 
 .team-header {
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .job-title {
@@ -298,6 +299,24 @@ button {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.social-media {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+}
+
+.social-media-icon {
+  background-color: var(--iris-color);
+  border-radius: 20px;
+}
+
+.social-media-icon:hover,
+.social-media-icon:focus {
+  background-color: var(--ocean-color);
+  cursor: pointer;
 }
 
 .portfolio-main-section {
