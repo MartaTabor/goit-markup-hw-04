@@ -209,7 +209,6 @@ button {
 .footer-socialmedia-icon:hover,
 .footer-socialmedia-icon:focus {
   background-color: var(--green-color);
-  cursor: pointer;
 }
 
 .order-section {
@@ -455,6 +454,14 @@ button {
 
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  border: 1px solid var(--CLOUD, #f4f4fd);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-description {
