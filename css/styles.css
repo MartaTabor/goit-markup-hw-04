@@ -396,8 +396,15 @@ button {
 }
 
 .client-icon {
+  display: flex;
+  width: 168px;
+  height: 88px;
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
+}
+
+.client-icon > svg {
+  display: block;
   fill: var(--light-slate-color);
 }
 
