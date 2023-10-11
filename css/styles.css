@@ -400,17 +400,18 @@ button {
   height: 88px;
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
+  color: var(--light-slate-color);
 }
 
 .client-icon > svg {
   display: block;
-  fill: var(--light-slate-color);
+  fill: currentColor;
 }
 
 .client-icon:hover,
 .client-icon:focus {
-  border: 1px solid var(--ocean-color);
-  fill: var(--ocean-color);
+  border-color: var(--ocean-color);
+  color: var(--ocean-color);
 }
 
 .portfolio-main-section {
