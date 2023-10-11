@@ -206,8 +206,8 @@ button {
   background-color: var(--navy-blue-color);
   background-image: radial-gradient(
       at center,
-      var(--grey-color) 10%,
-      #424354b2 50%
+      var(--grey-color),
+      var(--grey-color)
     ),
     url("/goit-markup-hw-04/images/people-office.jpg");
   max-width: 1440px;
@@ -264,6 +264,17 @@ button {
 .services-icon-box {
   background-color: var(--cloud-color);
   border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.services-icon-box > svg {
+  width: 64px;
+  height: 64px;
 }
 
 .small-header {
