@@ -192,8 +192,18 @@ button {
 }
 
 .footer-socialmedia-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--iris-color);
   border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-socialmedia-icon > svg {
+  width: 24px;
+  height: 24px;
 }
 
 .footer-socialmedia-icon:hover,
