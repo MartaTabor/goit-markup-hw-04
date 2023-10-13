@@ -130,8 +130,15 @@ button {
   color: var(--ocean-color);
 }
 
-.page-link:hover::after,
-.page-link:focus::after {
+.page-link-studio::after {
+  content: "";
+  display: block;
+  background-color: var(--ocean-color);
+  height: 4px;
+  border-radius: 2px;
+}
+
+.page-link-portfolio::after {
   content: "";
   display: block;
   background-color: var(--ocean-color);
