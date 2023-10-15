@@ -123,6 +123,7 @@ button {
   color: var(--navy-blue-color);
   display: inline-block;
   padding: 24px 0;
+  position: relative;
 }
 
 .page-link:hover,
@@ -136,6 +137,10 @@ button {
   background-color: var(--ocean-color);
   height: 4px;
   border-radius: 2px;
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0px;
 }
 
 .page-link-portfolio::after {
@@ -144,6 +149,10 @@ button {
   background-color: var(--ocean-color);
   height: 4px;
   border-radius: 2px;
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0px;
 }
 
 .address-list {
