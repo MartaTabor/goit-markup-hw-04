@@ -1,3 +1,20 @@
+:root {
+  --navy-blue-color: #2e2f42;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --slate-color: #434455;
+  --white-color: #ffffff;
+  --cloud-color: #f4f4fd;
+  --cornflower-color: #e7e9fc;
+  --grey-color: #2e2f42b2;
+  --light-slate-color: #8e8f99;
+  --green-color: #31d0aa;
+  --second-heading-size: 36px;
+  --second-heading-weight: 700;
+  --third-heading-size: 20px;
+  --third-heading-weight: 500;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
@@ -23,23 +40,6 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-}
-
-:root {
-  --navy-blue-color: #2e2f42;
-  --iris-color: #4d5ae5;
-  --ocean-color: #404bbf;
-  --slate-color: #434455;
-  --white-color: #ffffff;
-  --cloud-color: #f4f4fd;
-  --cornflower-color: #e7e9fc;
-  --grey-color: #2e2f42b2;
-  --light-slate-color: #8e8f99;
-  --green-color: #31d0aa;
-  --second-heading-size: 36px;
-  --second-heading-weight: 700;
-  --third-heading-size: 20px;
-  --third-heading-weight: 500;
 }
 
 .visually-hidden {
